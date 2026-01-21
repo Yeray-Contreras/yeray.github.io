@@ -1,0 +1,178 @@
+body{
+    color:black;
+    background-image: url(imagenes/tecnocampus.png);
+    background-size: 100% auto;
+    background-repeat:round;
+}
+
+p,h1{
+    color:white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding: 3px;
+}
+
+header{
+    background-color: rgb(91, 91, 255);
+    color: white;
+    background-image: url(imagenes/logo.png);
+    background-repeat: no-repeat;
+    background-position: 2em;
+    background-size: auto 90%;
+    height: 5em;
+    text-align: center;
+    padding: 2.5em;
+    margin: -0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-image: url(imagenes/borderprueba.png) 1% round;
+    border-style: solid;
+    border-image-width: 3px;
+}
+
+footer{
+    background-color: rgb(91, 91, 255);
+    color: white;
+    background-image: url(imagenes/logo.png);
+    background-repeat:no-repeat;
+    background-position: 2em;
+    background-size: auto 90%;
+    height: 10em;
+    text-align: center;
+    padding: 1.5em;
+    margin: -0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:0.8em;
+    border-image: url(imagenes/borderprueba.png) 1% round;
+    border-style: solid;
+    border-image-width: 3px;
+    position: relative;
+    bottom:20px
+}
+
+table{
+    vertical-align: middle;    
+    text-align: center;
+    margin: 0 auto;
+    width: 66%;
+    height: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.enlaceA{
+    background-color: rgb(91, 91, 255);
+    color: white;
+    width: 50%
+}
+
+.enlaceB{
+    background-color: rgb(91, 91, 255);
+    color: white;
+    width:50%
+}
+
+
+
+.enlaceA:hover{
+    background-color: blue;
+    width: 44%;
+    font-size: 1.5em;
+}
+
+.enlaceB:hover{
+    background-color: blue;
+    width: 44%;
+    font-size: 1.5em;
+}
+
+
+.C2{
+    background-image: url(imagenes/placabase.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 15em;
+    color:white;
+    text-shadow: 1px 1px black; 
+    border: 5px outset blue;    
+    border-radius: 0px 40px 0px 40px;
+    width:20em;
+}
+
+.C3{
+    background-image: url(imagenes/redessociales.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 15em;
+    color:white;
+    text-shadow: 1px 1px black; 
+    border: 5px outset blue;
+    border-radius: 0px 40px 0px 40px;
+    width:20em;
+}
+
+.quieness{
+    background-color:rgb(0, 51, 128);
+    color:white;
+    border: 8px ridge #9900ff ;
+    border-radius: 18px;
+    padding: 1em;
+}
+.tablaf{
+    background-color:rgb(0, 51, 128);
+    color:white;
+    border: 8px ridge #9900ff ;
+    border-radius: 18px;
+    padding: 1em;
+    width: auto;
+}
+
+.textopp{
+    background-color:rgb(0, 51, 128);
+    color:white;
+    border: 6px ridge #9900ff ;
+    border-radius: 18px;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: auto;
+}
+
+.tablatitulo{
+    background-color:rgb(0, 51, 128);
+    color:white;
+    border: 6px ridge #9900ff ;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: auto;
+}
+
+.bodyf {
+    background-color: #f0f0f0;
+    font-family: Arial;
+}
+
+.caja {
+    width: 300px;
+    margin: 100px auto;
+    padding: 15px;
+    background-color: rgb(148, 203, 255);
+    border: 1px solid #3d4aff;
+}
+
+.h2f {
+    text-align: center;
+    color:white;
+    text-shadow: black 1px 1px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
